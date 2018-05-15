@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c5dee39-b337-4586-9c31-636aeeefe6f2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Crafter/Product/Block/Index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Crafter/Product/Block/Product.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Crafter/Product/Helper/Data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Crafter/Product/Models/Article/Article.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Crafter/Product/controllers/IndexController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Crafter/Product/etc/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Block/List.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Helper/Data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Entity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Item.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Mysql4/Entity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Mysql4/Entity/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Mysql4/Item.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Mysql4/Item/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Mysql4/Type.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Mysql4/Type/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Setup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Type.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/IndexController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/SearchController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/ViewController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/data/mdg_giftregistry_setup/data-install-0.1.0.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/etc/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/sql/mdg_giftregistry_setup/install-0.1.0.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/layout/mdg_giftregistry.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/layout/product.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/magentotutorial/helloworld/simple_page.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/list.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/new.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/product/index.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/product/product.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Crafter_Product.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mdg_Giftregistry.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/dhl/logo.jpg" afterPath="$PROJECT_DIR$/media/dhl/logo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/xmlconnect/custom/ok.gif" afterPath="$PROJECT_DIR$/media/xmlconnect/custom/ok.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/xmlconnect/original/ok.gif" afterPath="$PROJECT_DIR$/media/xmlconnect/original/ok.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/xmlconnect/system/ok.gif" afterPath="$PROJECT_DIR$/media/xmlconnect/system/ok.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Product.php" afterPath="$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php" afterPath="$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/rwd/default/layout/page.xml" afterPath="$PROJECT_DIR$/app/design/frontend/rwd/default/layout/page.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/1column.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/1column.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/3columns.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/3columns.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/config.xml" afterPath="$PROJECT_DIR$/app/etc/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/local.xml.additional" afterPath="$PROJECT_DIR$/app/etc/local.xml.additional" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/local.xml.template" afterPath="$PROJECT_DIR$/app/etc/local.xml.template" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Cm_RedisSession.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Cm_RedisSession.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_All.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_All.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Api.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Api.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Api2.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Api2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Authorizenet.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Authorizenet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Bundle.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Bundle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Captcha.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Captcha.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Centinel.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Centinel.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Compiler.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_ConfigurableSwatches.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_ConfigurableSwatches.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Connect.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Connect.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_CurrencySymbol.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_CurrencySymbol.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Downloadable.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Downloadable.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_ImportExport.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_ImportExport.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Oauth.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Oauth.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_PageCache.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_PageCache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Persistent.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Persistent.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Weee.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Weee.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Widget.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Widget.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_XmlConnect.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_XmlConnect.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Phoenix_Moneybookers.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Phoenix_Moneybookers.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/.htaccess" afterPath="$PROJECT_DIR$/media/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/customer/.htaccess" afterPath="$PROJECT_DIR$/media/customer/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/downloadable/.htaccess" afterPath="$PROJECT_DIR$/media/downloadable/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/.htaccess" afterPath="$PROJECT_DIR$/var/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Cm_RedisSession-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Cm_RedisSession-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Interface_Adminhtml_Default-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Interface_Adminhtml_Default-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Interface_Frontend_Base_Default-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Interface_Frontend_Base_Default-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Interface_Frontend_Default-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Interface_Frontend_Default-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Interface_Frontend_Rwd_Default-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Interface_Frontend_Rwd_Default-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Interface_Install_Default-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Interface_Install_Default-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_Cm-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Lib_Cm-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_Credis-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Lib_Credis-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_Google_Checkout-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Lib_Google_Checkout-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_IDNA2-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Lib_IDNA2-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_Js_Calendar-1.51.1.7.xml" afterPath="$PROJECT_DIR$/var/package/Lib_Js_Calendar-1.51.1.7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_Js_Ext-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Lib_Js_Ext-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_Js_Mage-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Lib_Js_Mage-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_Js_Prototype-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Lib_Js_Prototype-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_Js_TinyMCE-3.5.11.6.xml" afterPath="$PROJECT_DIR$/var/package/Lib_Js_TinyMCE-3.5.11.6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_LinLibertineFont-2.8.14.7.xml" afterPath="$PROJECT_DIR$/var/package/Lib_LinLibertineFont-2.8.14.7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_Mage-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Lib_Mage-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_Magento-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Lib_Magento-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_Pelago-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Lib_Pelago-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_Phpseclib-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Lib_Phpseclib-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_Unserialize-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Lib_Unserialize-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_Varien-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Lib_Varien-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_ZF-1.12.10.6.xml" afterPath="$PROJECT_DIR$/var/package/Lib_ZF-1.12.10.6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Lib_ZF_Locale-1.12.10.6.xml" afterPath="$PROJECT_DIR$/var/package/Lib_ZF_Locale-1.12.10.6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Mage_All_Latest-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Mage_All_Latest-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Mage_Centinel-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Mage_Centinel-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Mage_Compiler-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Mage_Compiler-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Mage_Core_Adminhtml-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Mage_Core_Adminhtml-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Mage_Core_Modules-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Mage_Core_Modules-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Mage_Downloader-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Mage_Downloader-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Mage_Locale_en_US-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Mage_Locale_en_US-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Magento_Mobile-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Magento_Mobile-1.9.3.1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/package/Phoenix_Moneybookers-1.9.3.1.xml" afterPath="$PROJECT_DIR$/var/package/Phoenix_Moneybookers-1.9.3.1.xml" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="mdg_giftregistry.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/mdg_giftregistry.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/new.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Data.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Helper/Data.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/layout/page.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="91" column="41" lean-forward="false" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3columns.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/3columns.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#967#0#PHP" expanded="true" />
+                <element signature="e#977#1021#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/etc/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Type.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Type.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Block/List.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entity.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Entity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.phtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/list.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>he</find>
+      <find>autoload</find>
+      <find>Mage_Core_Controller_Varien_Router_Standard</find>
+      <find>$action</find>
+      <find>is_callable</find>
+      <find>Mage::getModel</find>
+      <find>core/url_rewrite</find>
+      <find>getPrie</find>
+      <find>getName</find>
+      <find>getProductCollection</find>
+      <find>block</find>
+      <find>footer_before</find>
+      <find>content</find>
+      <find>mdg_giftregistry</find>
+      <find>join</find>
+      <find>giftregistry/entity</find>
+      <find>mdg_giftregistry_type</find>
+      <find>mdg_giftregistry/entity</find>
+      <find>footer</find>
+      <find>header</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/app/code/core/Mage</dir>
+      <dir>$PROJECT_DIR$/app/code/core</dir>
+      <dir>$PROJECT_DIR$/app/design/frontend/base/default/layout</dir>
+      <dir>$PROJECT_DIR$/app/design/frontend/base/default/template</dir>
+      <dir>$PROJECT_DIR$/app/design/frontend/base/default</dir>
+      <dir>$PROJECT_DIR$/app/design</dir>
+      <dir>$PROJECT_DIR$/app/code/local/Mdg</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/Mage.php" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php" />
+        <option value="$PROJECT_DIR$/lib/Varien/Object.php" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Product.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/modern/layout/page.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/modern/template/page/3columns.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/page/empty.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/page.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/page/3columns.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/default/etc/theme.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/layout/page.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/local.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/magentotutorial/helloworld/simple_page.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Crafter/Product/Models/Article/Article.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Crafter/Product/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Crafter/Product/Block/Product.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Crafter/Product/Block/Index.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/product/index.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/product/product.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/product.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Type.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Mysql4/Type.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Type.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Type/Collection.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Item.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Item.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Item/Collection.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Entity.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Entity/Collection.php" />
+        <option value="$PROJECT_DIR$/app/etc/modules/Mdg_Giftregistry.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Entity.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/sql/mdg_giftregistry_setup/upgrade-0.2.0-0.2.1.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/data/mdg_giftregistry_setup/data-upgrade-0.2.0-0.2.1.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/data/mdg_giftregistry_setup/data-install-0.1.0.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/sql/giftregistry_setup/upgrade-0.2.0-0.2.1.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/SearchController.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/ViewController.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/page/1column.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/1column.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/empty.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/3columns.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Block/List.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/mdg_giftregistry.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/new.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Helper/Data.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/list.phtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="145" />
+    <option name="y" value="23" />
+    <option name="width" value="1259" />
+    <option name="height" value="823" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mdg_giftregistry_setup" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="etc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Helper" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resource" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="page" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="rwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="rwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="rwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="rwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="rwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="page" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="etc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="locale" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Varien" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="local.xml&#9;FILE&#9;file:///Applications/MAMP/htdocs/magento1/app/etc/local.xml&#10;Varien_Obj&#9;null&#9;null&#10;catalog.xml&#9;FILE&#9;file:///Applications/MAMP/htdocs/magento1/app/design/adminhtml/default/default/layout/catalog.xml" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/design/frontend/base/default/template/mdg" />
+      <recent name="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers" />
+      <recent name="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry" />
+      <recent name="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Entity" />
+      <recent name="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c5dee39-b337-4586-9c31-636aeeefe6f2" name="Default" comment="" />
+      <created>1525506599413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525506599413</updated>
+      <workItem from="1525506601418" duration="3474000" />
+      <workItem from="1525550758317" duration="3582000" />
+      <workItem from="1525616497095" duration="1843000" />
+      <workItem from="1525625949753" duration="3183000" />
+      <workItem from="1525893909703" duration="1672000" />
+      <workItem from="1525985367183" duration="4054000" />
+      <workItem from="1526063982939" duration="289000" />
+      <workItem from="1526112865021" duration="2158000" />
+      <workItem from="1526146003875" duration="6800000" />
+      <workItem from="1526226247097" duration="6578000" />
+      <workItem from="1526404134416" duration="3129000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="36762000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="145" y="23" width="1259" height="823" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26376334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.50780606" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.4921939" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Crafter/Product/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Crafter/Product/Models/Article/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Crafter/Product/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/modules/Crafter_Product.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Crafter/Product/Block/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Crafter/Product/Block/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/product/product.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/product/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magento-CE-1.9.3.1/lib/Varien/Object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="153" column="23" lean-forward="false" selection-start-line="153" selection-start-column="23" selection-end-line="153" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="105" column="23" lean-forward="false" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Type/Collection.php" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Type.php" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Item.php" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Item/Collection.php" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Entity/Collection.php" />
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/product.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Entity.php" />
+    <entry file="file://$PROJECT_DIR$/app/etc/modules/Mdg_Giftregistry.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/data/giftregistry_setup/data-upgrade-0.2.0-0.2.1.php" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/data/giftregistry_setup/data-install-0.1.0.php" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/sql/giftregistry_setup/upgrade-0.2.0-0.2.1.php" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Block/Add.php" />
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Mysql4/Item/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Mysql4/Type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Mysql4/Entity/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Mysql4/Type/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Mysql4/Entity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/sql/mdg_giftregistry_setup/install-0.1.0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="130" column="20" lean-forward="false" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/SearchController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="27" column="71" lean-forward="false" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/ViewController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/newsletter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="64" column="20" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="64" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/page/1column.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="37" column="46" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#968#0#PHP" expanded="true" />
+            <element signature="e#978#1022#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/1column.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="57" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#967#0#PHP" expanded="true" />
+            <element signature="e#977#1021#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/empty.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="45" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#967#0#PHP" expanded="true" />
+            <element signature="e#977#1021#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/html/footer.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Page/Block/Html/Footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-467">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/giftmessage/inline.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/3columns.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#967#0#PHP" expanded="true" />
+            <element signature="e#977#1021#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/layout/page.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="91" column="41" lean-forward="false" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Entity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/mdg_giftregistry.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/new.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Helper/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Block/List.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/list.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

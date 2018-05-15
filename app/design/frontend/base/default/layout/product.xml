@@ -1,0 +1,10 @@
+
+<layout version="0.1.0">
+<default>
+    <block type="product/product" name="product_index" template="product/index.phtml">
+    </block>
+    <block type="product/product" name="product_product" template="product/product.phtml" />
+</default>
+</layout>
+
+

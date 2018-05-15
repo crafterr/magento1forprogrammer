@@ -125,7 +125,6 @@ class Mage_Core_Controller_Varien_Router_Standard extends Mage_Core_Controller_V
         } else {
             $p = explode('/', $this->_getDefaultPath());
         }
-
         // get module name
         if ($request->getModuleName()) {
             $module = $request->getModuleName();

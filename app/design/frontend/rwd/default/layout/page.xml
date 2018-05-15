@@ -122,9 +122,15 @@
                 <label>Main Content Area</label>
             </block>
 
+            <block type="product/index" name="product_index" as="slider" template="product/index.phtml">
+                <block as="productblock" type="product/product" name="product_product" template="product/product.phtml" />
+            </block>
+
+
             <block type="core/text_list" name="right" as="right" translate="label">
                 <label>Right Column</label>
             </block>
+
 
             <block type="page/html_wrapper" name="footer.before" as="footer_before" translate="label">
                 <label>Page Footer</label>

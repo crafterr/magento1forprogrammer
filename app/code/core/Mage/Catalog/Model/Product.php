@@ -201,6 +201,8 @@ class Mage_Catalog_Model_Product extends Mage_Catalog_Model_Abstract
         return $this->_getData('name');
     }
 
+
+
     /**
      * Get product price throught type instance
      *
