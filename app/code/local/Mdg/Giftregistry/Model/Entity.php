@@ -28,4 +28,6 @@ class Mdg_Giftregistry_Model_Entity extends Mage_Core_Model_Abstract
         return $this;
     }
 
+
+
 }

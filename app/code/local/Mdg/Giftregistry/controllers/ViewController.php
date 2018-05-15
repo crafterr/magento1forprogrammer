@@ -15,10 +15,11 @@ class Mdg_Giftregistry_SearchController extends Mage_Core_Controller_Front_Actio
     public function viewAction()
     {
         $registryId = $this->getRequest()->getParam('registry_id');
-        if ($registryId) {
+        if($registryId){
             $entity = Mage::getModel('mdg_giftregistry/entity');
-            if ($entity->load($registryId)) {
-                Mage::registry('loaded_registry',$entity);
+            if($entity->load($registryId))
+            {
+                Mage::register('loaded_registry', $entity);
                 $this->loadLayout();
                 $this->_initLayoutMessages('customer/session');
                 $this->renderLayout();
@@ -28,5 +29,6 @@ class Mdg_Giftregistry_SearchController extends Mage_Core_Controller_Front_Actio
                 return $this;
             }
         }
+        $this->_redirect('*/*/');
     }
 }

@@ -11,6 +11,13 @@ class Mdg_Giftregistry_SearchController extends Mage_Core_Controller_Front_Actio
         }
     }
 
+    public function indexAction()
+    {
+        $this->loadLayout();
+        $this->renderLayout();
+        return $this;
+    }
+
     public function resultsAction()
     {
         $this->loadLayout();
@@ -25,7 +32,7 @@ class Mdg_Giftregistry_SearchController extends Mage_Core_Controller_Front_Actio
         if($searchParams['location']){
             $results->addFieldToFilter('event_location', $searchParams['location']);
         }
-        $this->getLayout()->getBlock('mdg_giftregistry.search.results')->setResults($results);
+        $this->getLayout()->getBlock('mdg_giftregistry.search.results')->setCustomerRegistries($results);
     }
     $this->renderLayout();
     return $this;
