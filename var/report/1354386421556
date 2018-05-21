@@ -1,0 +1,13 @@
+a:5:{i:0;s:25:"Invalid attribute name: *";i:1;s:1864:"#0 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Eav/Model/Entity/Collection/Abstract.php(1291): Mage::exception('Mage_Eav', 'Invalid attribu...')
+#1 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Eav/Model/Entity/Collection/Abstract.php(1384): Mage_Eav_Model_Entity_Collection_Abstract->_addAttributeJoin('*', 'inner')
+#2 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Eav/Model/Entity/Collection/Abstract.php(321): Mage_Eav_Model_Entity_Collection_Abstract->_getAttributeConditionSql('*', '', 'inner')
+#3 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Catalog/Model/Resource/Product/Collection.php(1440): Mage_Eav_Model_Entity_Collection_Abstract->addAttributeToFilter('*', '', 'inner')
+#4 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Eav/Model/Entity/Collection/Abstract.php(341): Mage_Catalog_Model_Resource_Product_Collection->addAttributeToFilter('*', NULL)
+#5 /Applications/MAMP/htdocs/magento1/app/code/local/Crafter/Test/controllers/IndexController.php(47): Mage_Eav_Model_Entity_Collection_Abstract->addFieldToFilter('*')
+#6 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Crafter_Test_IndexController->jsonAction()
+#7 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(253): Mage_Core_Controller_Varien_Action->dispatch('json')
+#8 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 /Applications/MAMP/htdocs/magento1/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#11 /Applications/MAMP/htdocs/magento1/index.php(83): Mage::run('', 'store')
+#12 {main}";s:3:"url";s:16:"/test/index/json";s:11:"script_name";s:10:"/index.php";s:4:"skin";s:7:"default";}
