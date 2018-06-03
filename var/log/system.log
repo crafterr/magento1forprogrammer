@@ -42,3 +42,7 @@
 2018-05-06T10:27:33+00:00 DEBUG (7): getIsDefault
 2018-05-06T10:27:33+00:00 DEBUG (7): hasDefaultGroupId
 2018-05-06T10:27:33+00:00 DEBUG (7): hasDefaultGroupId
+2018-06-03T20:18:17+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/mdg_giftregistry/giftregistry/customer/main.phtml
+2018-06-03T20:18:19+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/mdg_giftregistry/giftregistry/customer/main.phtml
+2018-06-03T20:21:13+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/mdg_giftregistry/giftregistry/customer/main.phtml
+2018-06-03T20:21:14+00:00 CRIT (2): Not valid template file:adminhtml/base/default/template/mdg_giftregistry/giftregistry/customer/main.phtml

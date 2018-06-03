@@ -56,13 +56,13 @@ class Mdg_Giftregistry_IndexController extends Mage_Core_Controller_Front_Action
     {
         try {
             $data = $this->getRequest()->getParams();
-
             $registry = Mage::getModel('mdg_giftregistry/entity');
             $customer = Mage::getSingleton('customer/session')->getCustomer();
 
         if($this->getRequest()->getPost() && !empty($data)) {
 
             $registry->updateRegistryData($customer, $data);
+            //Zend_Debug::dump($registry); die();
             $registry->save();
             $successMessage = Mage::helper('mdg_giftregistry')->__('Registry Successfully Created');
             Mage::getSingleton('core/session')->addSuccess($successMessage);
