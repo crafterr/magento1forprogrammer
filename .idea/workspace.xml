@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c5dee39-b337-4586-9c31-636aeeefe6f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Crafter/Test/Block/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Crafter/Test/Helper/Data.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Crafter/Test/Model/Product.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Crafter/Test/controllers/IndexController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Crafter/Test/etc/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/layout/test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/test/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Crafter_Test.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---f5d_DB_PDO_MYSQL_DDL_log_visitor_info_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---f5d_DB_PDO_MYSQL_DDL_log_visitor_info_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---f5d_DB_PDO_MYSQL_DDL_customer_eav_attribute_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---f5d_DB_PDO_MYSQL_DDL_customer_eav_attribute_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---f5d_DB_PDO_MYSQL_DDL_mdg_giftregistry_entity_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---f5d_Zend_LocaleL_pl_PL_month_gregorian_format_abbreviated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---f5d_DB_PDO_MYSQL_DDL_mdg_giftregistry_entity_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---f5d_Zend_LocaleL_pl_PL_month_gregorian_format_abbreviated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---f5d_Zend_LocaleL_pl_PL_day_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---f5d_Zend_LocaleL_pl_PL_day_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---f5d_Zend_LocaleL_pl_PL_month_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---f5d_Zend_LocaleL_pl_PL_month_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---f5d_DB_PDO_MYSQL_DDL_eav_attribute_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---f5d_DB_PDO_MYSQL_DDL_eav_attribute_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---f5d_DB_PDO_MYSQL_DDL_customer_eav_attribute_website_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---f5d_Zend_LocaleC_pl_PL_parentlocale_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---f5d_DB_PDO_MYSQL_DDL_customer_eav_attribute_website_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---f5d_Zend_LocaleC_pl_PL_parentlocale_" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---f5d_CORE_CACHE_OPTIONS" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---f5d_CORE_CACHE_OPTIONS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Entity.php" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Entity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/new.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/new.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---f5d_DB_PDO_MYSQL_DDL_catalog_product_entity_1" afterPath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---f5d_DB_PDO_MYSQL_DDL_catalog_product_entity_1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---f5d_Zend_LocaleC_pl_PL_parentlocale_" afterPath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---f5d_Zend_LocaleC_pl_PL_parentlocale_" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,91 +18,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="64" column="11" lean-forward="false" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Crafter/Test/etc/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+              <caret line="64" column="60" lean-forward="false" selection-start-line="64" selection-start-column="60" selection-end-line="64" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Crafter/Test/controllers/IndexController.php">
+      <file leaf-file-name="Item.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Item.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="120">
+              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Crafter/Test/Model/Product.php">
+      <file leaf-file-name="new.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/new.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="42" column="86" lean-forward="false" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="86" />
+            <state relative-caret-position="102">
+              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Data.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Crafter/Test/Helper/Data.php">
+      <file leaf-file-name="Abstract.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Abstract.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Crafter/Test/Block/Index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/test.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/test/index.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Crafter_Test.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/etc/modules/Crafter_Test.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-45">
+              <caret line="301" column="20" lean-forward="false" selection-start-line="301" selection-start-column="20" selection-end-line="301" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -135,7 +62,57 @@
         <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Entity.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="53" />
+              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="install-0.1.0.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/sql/mdg_giftregistry_setup/install-0.1.0.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="76" column="28" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Block/List.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/etc/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1095">
+              <caret line="73" column="43" lean-forward="false" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/search.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/view.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -166,6 +143,7 @@
       <find>footer</find>
       <find>header</find>
       <find>getCustomer(</find>
+      <find>type_id</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/code/core/Mage</dir>
@@ -218,8 +196,6 @@
         <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/3columns.phtml" />
         <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Block/List.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/new.phtml" />
-        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Entity.php" />
         <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/edit.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/search.phtml" />
         <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/SearchController.php" />
@@ -228,12 +204,14 @@
         <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/view.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/mdg_giftregistry.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/ViewController.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/app/code/local/Crafter/Test/Model/AbstractProduct.php" />
         <option value="$PROJECT_DIR$/app/code/local/Crafter/Test/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Crafter/Test/Helper/Data.php" />
         <option value="$PROJECT_DIR$/app/code/local/Crafter/Test/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/app/code/local/Crafter/Test/Model/Product.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/new.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Entity.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/IndexController.php" />
       </list>
     </option>
   </component>
@@ -248,7 +226,7 @@
     <option name="x" value="145" />
     <option name="y" value="23" />
     <option name="width" value="1259" />
-    <option name="height" value="823" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -305,7 +283,7 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Crafter" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
@@ -313,8 +291,8 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Crafter" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
@@ -322,8 +300,8 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Crafter" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -332,8 +310,8 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Crafter" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -342,8 +320,8 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Crafter" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="etc" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -352,9 +330,9 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Crafter" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Helper" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
@@ -362,9 +340,20 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Crafter" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sql" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Giftregistry" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sql" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mdg_giftregistry_setup" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
@@ -395,6 +384,37 @@
               <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mdg" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="magento1" type="b2602c69:ProjectViewProjectNode" />
@@ -503,25 +523,27 @@
       <workItem from="1526226247097" duration="6578000" />
       <workItem from="1526404134416" duration="4160000" />
       <workItem from="1526418042775" duration="1856000" />
-      <workItem from="1526927857435" duration="3440000" />
+      <workItem from="1526927857435" duration="3928000" />
+      <workItem from="1527931793433" duration="292000" />
+      <workItem from="1528046647112" duration="1123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43089000" />
+    <option name="totallyTimeSpent" value="44992000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="145" y="23" width="1259" height="823" extended-state="0" />
+    <frame x="145" y="23" width="1259" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2719803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2801972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5061627" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292011" sideWeight="0.51273626" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.48890716" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.4938373" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292011" sideWeight="0.48726377" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -544,7 +566,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Item.php" />
     <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Item/Collection.php" />
     <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Resource/Entity/Collection.php" />
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/product.xml">
@@ -581,14 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Item.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Mysql4/Type/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -600,13 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/sql/mdg_giftregistry_setup/install-0.1.0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="130" column="20" lean-forward="false" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -622,10 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
           <caret line="37" column="46" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#968#0#PHP" expanded="false" />
-            <element signature="e#978#1022#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -691,22 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="91" column="41" lean-forward="false" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/new.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -714,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,14 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/search.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/SearchController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -753,7 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="33" column="74" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,31 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="79" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Block/List.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/list.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="64" lean-forward="false" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/view.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,30 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/mdg_giftregistry.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Entity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="64" column="11" lean-forward="false" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -855,7 +782,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Crafter/Test/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="405">
           <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
           <folding />
         </state>
@@ -871,7 +798,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Crafter/Test/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
+        <state relative-caret-position="450">
           <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="33" />
           <folding />
         </state>
@@ -879,8 +806,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Crafter/Test/Model/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="42" column="86" lean-forward="false" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="86" />
+        <state relative-caret-position="345">
+          <caret line="28" column="66" lean-forward="false" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/mdg_giftregistry.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/list.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/search.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/view.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="43" lean-forward="false" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Block/List.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/sql/mdg_giftregistry_setup/install-0.1.0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="76" column="28" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="301" column="20" lean-forward="false" selection-start-line="301" selection-start-column="20" selection-end-line="301" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/mdg/new.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Entity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/Model/Item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mdg/Giftregistry/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="64" column="60" lean-forward="false" selection-start-line="64" selection-start-column="60" selection-end-line="64" selection-end-column="60" />
           <folding />
         </state>
       </provider>

@@ -56,13 +56,13 @@ class Mdg_Giftregistry_IndexController extends Mage_Core_Controller_Front_Action
     {
         try {
             $data = $this->getRequest()->getParams();
+
             $registry = Mage::getModel('mdg_giftregistry/entity');
             $customer = Mage::getSingleton('customer/session')->getCustomer();
 
         if($this->getRequest()->getPost() && !empty($data)) {
-            $data['event_date'] = now();
+
             $registry->updateRegistryData($customer, $data);
-            Zend_Debug::dump($registry); die();
             $registry->save();
             $successMessage = Mage::helper('mdg_giftregistry')->__('Registry Successfully Created');
             Mage::getSingleton('core/session')->addSuccess($successMessage);
@@ -70,6 +70,7 @@ class Mdg_Giftregistry_IndexController extends Mage_Core_Controller_Front_Action
             throw new Exception("Insufficient Data provided");
         }
     } catch (Mage_Core_Exception $e) {
+
             Mage::getSingleton('core/session')->addError($e->getMessage());
         $this->_redirect('*/*/');
     }
