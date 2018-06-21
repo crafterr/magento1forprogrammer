@@ -40,3 +40,79 @@ Stack trace:
 #15 /Applications/MAMP/htdocs/magento1/app/Mage.php(683): Mage_Core_Model_App->run(Array)
 #16 /Applications/MAMP/htdocs/magento1/index.php(83): Mage::run('', 'store')
 #17 {main}
+2018-06-17T18:49:19+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: giftregistry.list in /Applications/MAMP/htdocs/magento1/app/Mage.php:595
+Stack trace:
+#0 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('giftregistry.li...', Array)
+#2 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('giftregistry.li...', 'my_top_containe...')
+#3 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('giftregistry.li...', 'my_top_containe...')
+#4 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Applications/MAMP/htdocs/magento1/app/code/local/Mdg/Giftregistry/controllers/IndexController.php(16): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mdg_Giftregistry_IndexController->indexAction()
+#10 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(253): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Applications/MAMP/htdocs/magento1/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 /Applications/MAMP/htdocs/magento1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2018-06-17T18:49:21+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: giftregistry.list in /Applications/MAMP/htdocs/magento1/app/Mage.php:595
+Stack trace:
+#0 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('giftregistry.li...', Array)
+#2 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('giftregistry.li...', 'my_top_containe...')
+#3 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('giftregistry.li...', 'my_top_containe...')
+#4 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Applications/MAMP/htdocs/magento1/app/code/local/Mdg/Giftregistry/controllers/IndexController.php(16): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mdg_Giftregistry_IndexController->indexAction()
+#10 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(253): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Applications/MAMP/htdocs/magento1/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 /Applications/MAMP/htdocs/magento1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2018-06-17T18:49:33+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: giftregistry.list in /Applications/MAMP/htdocs/magento1/app/Mage.php:595
+Stack trace:
+#0 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('giftregistry.li...', Array)
+#2 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('giftregistry.li...', 'my_top_containe...')
+#3 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('giftregistry.li...', 'my_top_containe...')
+#4 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Applications/MAMP/htdocs/magento1/app/code/local/Mdg/Giftregistry/controllers/IndexController.php(16): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mdg_Giftregistry_IndexController->indexAction()
+#10 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(253): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Applications/MAMP/htdocs/magento1/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 /Applications/MAMP/htdocs/magento1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2018-06-17T18:50:35+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: giftregistry.list in /Applications/MAMP/htdocs/magento1/app/Mage.php:595
+Stack trace:
+#0 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('giftregistry.li...', Array)
+#2 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('giftregistry.li...', 'my_top_containe...')
+#3 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('giftregistry.li...', 'my_top_containe...')
+#4 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Applications/MAMP/htdocs/magento1/app/code/local/Mdg/Giftregistry/controllers/IndexController.php(16): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mdg_Giftregistry_IndexController->indexAction()
+#10 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(253): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Applications/MAMP/htdocs/magento1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Applications/MAMP/htdocs/magento1/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 /Applications/MAMP/htdocs/magento1/index.php(83): Mage::run('', 'store')
+#15 {main}

@@ -90,6 +90,17 @@ class Mage_Catalog_Block_Product_List extends Mage_Catalog_Block_Product_Abstrac
             }
         }
 
+        /*$productDetails    = Mage::getModel('catalog/category')->load($this->getCategoryId())
+            ->getProductCollection()
+            ->addAttributeToSelect('*');
+        $productDetails->joinField('is_in_stock',
+            'cataloginventory/stock_item',
+            'is_in_stock',
+            'product_id=entity_id',
+            'is_in_stock=0',
+            '{{table}}.stock_id=1',
+            'left');*/
+
         return $this->_productCollection;
     }
 
@@ -114,6 +125,7 @@ class Mage_Catalog_Block_Product_List extends Mage_Catalog_Block_Product_Abstrac
      */
     public function getLoadedProductCollection()
     {
+        print_r((string) $this->_getProductCollection()->getSelect());
         return $this->_getProductCollection();
     }
 

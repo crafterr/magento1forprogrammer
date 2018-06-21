@@ -235,4 +235,10 @@ class Mage_CatalogInventory_Model_Stock extends Mage_Core_Model_Abstract
         $this->getResource()->setInStockFilterToCollection($collection);
         return $this;
     }
+
+    public function addOutStockFilterToCollection($collection)
+    {
+        $this->getResource()->setOutOfStockFilterToCollection($collection);
+        return $this;
+    }
 }

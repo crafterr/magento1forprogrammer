@@ -1,8 +1,17 @@
 <layout version="0.1.0">
     <mdg_giftregistry_index_index>
-        <reference name="content">
-           <block name="giftregistry.list" type="mdg_giftregistry/list" template="mdg/list.phtml" as="giftregistry_list" />
+        <reference name="header">
+                <remove name="top.search" />
+                <block type="core/template" name="after.welcome" as="after.welcome" template="mdg/pinsearch.phtml"/>
+                <block type="core/template" name="after.searcher"  as="after.searcher" template="mdg/aftersearch.phtml"/>
+
         </reference>
+
+        <reference name="content">
+            <block name="giftregistry.list" type="mdg_giftregistry/list" template="mdg/list.phtml" as="giftregistry_list" />
+        </reference>
+
+
     </mdg_giftregistry_index_index>
 
     <mdg_giftregistry_index_new>

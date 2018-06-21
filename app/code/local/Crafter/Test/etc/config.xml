@@ -5,7 +5,21 @@
       <version>0.1.0</version>
     </Crafter_Test>
   </modules>
-  <frontend>
+    <adminhtml>
+        <events>
+            //second event
+            <catalog_product_save_after>
+                <observers>
+                    <happyhour>
+                        <type>model</type>
+                        <class>Crafter_Test_Observer_ObserverTwo</class>
+                        <method>product_prepare_save</method>
+                    </happyhour>
+                </observers>
+            </catalog_product_save_after>
+        </events>
+    </adminhtml>
+    <frontend>
     <routers>
       <test>
         <use>standard</use>
@@ -22,6 +36,16 @@
 			</test>
 		  </updates>
 		</layout>
+      <events>
+          <catalog_product_collection_load_before>
+              <observers>
+                  <velanapps_restrict_products>
+                      <class>Crafter_Test_Observer_Observer</class>
+                      <method>filterProductCollection</method>
+                  </velanapps_restrict_products>
+              </observers>
+          </catalog_product_collection_load_before>
+      </events>
   </frontend>
   <global>
     <helpers>
