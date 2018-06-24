@@ -1,11 +1,17 @@
 <?php
+class Mdg_Giftregistry_Block_Adminhtml_Customer_Edit_Tab_Giftregistry
+    extends Mage_Adminhtml_Block_Template
+    implements Mage_Adminhtml_Block_Widget_Tab_Interface {
 
-class Mdg_Giftregistry_Block_Adminhtml_Customer_Edit_Tab_Giftregistry extends Mage_Adminhtml_Block_Template implements Mage_Adminhtml_Block_Widget_Tab_Interface
-{
     public function __construct()
     {
         $this->setTemplate('mdg/giftregistry/customer/main.phtml');
-        parent::__construct();
+        parent::_construct();
+    }
+
+    public function getCustomerId()
+    {
+        return Mage::registry('current_customer')->getId();
     }
 
     public function getTabLabel()
@@ -27,5 +33,4 @@ class Mdg_Giftregistry_Block_Adminhtml_Customer_Edit_Tab_Giftregistry extends Ma
     {
         return false;
     }
-
 }

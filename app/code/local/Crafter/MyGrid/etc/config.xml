@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Crafter_MyGrid>
+      <version>0.1.0</version>
+    </Crafter_MyGrid>
+  </modules>
+  <frontend>
+    <routers>
+      <mygrid>
+        <use>standard</use>
+          <args>
+            <module>Crafter_MyGrid</module>
+            <frontName>mygrid</frontName>
+          </args>
+      </mygrid>
+    </routers>
+		<layout>
+		  <updates>
+			<mygrid>
+			  <file>mygrid.xml</file>
+			</mygrid>
+		  </updates>
+		</layout>
+  </frontend>
+  <global>
+    <helpers>
+      <mygrid>
+        <class>Crafter_MyGrid_Helper</class>
+      </mygrid>
+    </helpers>
+	<blocks>
+	  <mygrid>
+		<class>Crafter_MyGrid_Block</class>
+	  </mygrid>
+	</blocks>
+	<models>
+	  <mygrid>
+		<class>Crafter_MyGrid_Model</class>
+		<resourceModel>mygrid_mysql4</resourceModel>
+	  </mygrid>
+	  <mygrid_mysql4>
+		<class>Crafter_MyGrid_Model_Mysql4</class>
+		<entities>		  
+			  <article>
+				<table>crafter_article</table>
+			  </article>
+		</entities>
+	  </mygrid_mysql4>
+	</models>
+	<resources>
+	  <mygrid_setup>
+		<setup>
+		  <module>Crafter_MyGrid</module>
+		</setup>
+		<connection>
+		  <use>core_setup</use>
+		</connection>
+	  </mygrid_setup>
+	  <mygrid_write>
+		<connection>
+		  <use>core_write</use>
+		</connection>
+	  </mygrid_write>
+	  <mygrid_read>
+		<connection>
+		  <use>core_read</use>
+		</connection>
+	  </mygrid_read>
+	</resources>
+  </global>
+  <admin>
+	<routers>
+	  <mygrid>
+	    <use>admin</use>
+		<args>
+		  <module>Crafter_MyGrid</module>
+		  <frontName>admin_mygrid</frontName>
+		</args>
+	  </mygrid>
+	</routers>
+  </admin>
+  <adminhtml>
+	<menu>
+	  <mygrid module="mygrid">
+		<title>MyGrid</title>
+		<sort_order>100</sort_order>
+		<children>
+		  <mygridbackend module="mygrid">
+			<title>Backend Page Title</title>
+			<sort_order>0</sort_order>
+			<action>admin_mygrid/adminhtml_mygridbackend</action>
+		  </mygridbackend>
+		  <article module="mygrid">
+		    <title>Manage Article</title>
+			<sort_order>0</sort_order>
+			<action>admin_mygrid/adminhtml_article</action>
+		  </article>
+		</children>
+	  </mygrid>
+	</menu>
+	<acl>
+	  <resources>
+		<all>
+		  <title>Allow Everything</title>
+		</all>
+		<admin>
+		  <children>
+			<mygrid translate="title" module="mygrid">
+			  <title>MyGrid</title>
+			  <sort_order>1000</sort_order>
+			  <children>
+		  <mygridbackend translate="title">
+			<title>Backend Page Title</title>
+		  </mygridbackend>
+		  <article translate="title">
+			<title>Manage Article</title>
+			<sort_order>0</sort_order>
+		  </article>
+			  </children>
+			</mygrid>
+		  </children>
+		</admin>
+	  </resources>
+	</acl>
+	<layout>
+	  <updates>
+		<mygrid>
+		  <file>mygrid.xml</file>
+		</mygrid>
+	  </updates>
+	</layout>
+  </adminhtml>
+</config> 
