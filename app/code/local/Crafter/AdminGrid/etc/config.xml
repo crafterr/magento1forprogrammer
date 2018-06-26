@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Crafter_AdminGrid>
+            <version>1.0.0</version>
+        </Crafter_AdminGrid>
+    </modules>
+    <global>
+        <helpers>
+            <admingrid>
+                <class>Crafter_AdminGrid_Helper</class>
+            </admingrid>
+        </helpers>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <crafter_admingrid before="Mage_Adminhtml">Crafter_AdminGrid_Adminhtml</crafter_admingrid>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

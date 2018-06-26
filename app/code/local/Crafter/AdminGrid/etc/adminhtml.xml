@@ -1,0 +1,35 @@
+<adminhtml>
+<menu>
+    <admingrid module="admingrid">
+        <title>AdminGrid</title>
+        <sort_order>100</sort_order>
+        <children>
+            <adgrid module="admingrid">
+                <title>Manage Items</title>
+                <sort_order>0</sort_order>
+                <action>*/adgrid</action>
+            </adgrid>
+        </children>
+    </admingrid>
+</menu>
+<acl>
+    <resources>
+        <all>
+            <title>Allow Everything</title>
+        </all>
+        <admin>
+            <children>
+                <admingrid translate="title" module="admingrid">
+                    <title>AdminGrid</title>
+                    <sort_order>1000</sort_order>
+                    <children>
+                        <admingridbackend translate="title">
+                            <title>Manage Items</title>
+                        </admingridbackend>
+                    </children>
+                </admingrid>
+            </children>
+        </admin>
+    </resources>
+</acl>
+</adminhtml>
